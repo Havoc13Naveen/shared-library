@@ -1,3 +1,3 @@
 def call(name){
-  sh' sudo apt install ${name}'
+  sh' sudo apt install ${name} -y'
 }
