@@ -1,3 +1,3 @@
 def call(){
-  sh 'ls'
+  sh 'ps -ef *'
 }
