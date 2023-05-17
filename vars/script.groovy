@@ -1,3 +1,3 @@
 def call(){
-sh 'ls /home/ubuntu/'
+sh 'ps -ef | head -1 |tail -1'
 }
