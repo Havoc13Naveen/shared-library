@@ -1,3 +1,3 @@
 def call(){
-sh 'pwd'
+sh'pwd'
 }
