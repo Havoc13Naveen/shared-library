@@ -1,3 +1,3 @@
 def call() {
-  sh 'sudo apt remove tree'
+  sh 'sudo apt remove tree -y'
 }
