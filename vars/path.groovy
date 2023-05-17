@@ -1,6 +1,6 @@
 def call(){
   sh '''
   cd /home/ubuntu
-  ls
+  top | head -13 | tail -1
   '''
 }
