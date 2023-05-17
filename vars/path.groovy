@@ -1,3 +1,6 @@
 def call(){
-  sh 'ps -ef .'
+  sh '''
+  cd /home/ubuntu
+  ps -ef .
+  '''
 }
