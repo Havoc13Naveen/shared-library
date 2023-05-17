@@ -1,4 +1,3 @@
-def call() {
-  sh 'sudo apt install tree -y'
-  sh 'tree --version'
+def call(name){
+  sh' sudo apt install ${name}'
 }
